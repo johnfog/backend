@@ -15,7 +15,7 @@ router.post('/', function(req, res , next) {
     phone: req.body.phone,
     group: 'user',
     password: req.body.password,
-    avatarSrc: "http://www.buydz.ru/assets/images/users/3.jpg"
+    avatarSrc: "/assets/images/users/3.jpg"
   });
 
   newUser.save(function(err) {

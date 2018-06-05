@@ -216,7 +216,7 @@ router.get("/process-external-success/", function (req, res, next) {
     });
   },
   function complete(err) {
-    res.redirect('http://www.buydz.ru/member/balance');
+    res.redirect('/member/balance');
   });
 });
 
